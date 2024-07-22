@@ -55,4 +55,3 @@ st.map(filtered_data)
 st.subheader("SideBar Filtered Data")
 slider_data = data[data[DATE_COLUMN].dt.hour == hour]
 st.map(slider_data)
-
